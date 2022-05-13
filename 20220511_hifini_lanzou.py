@@ -1,14 +1,14 @@
 import time
 from selenium import webdriver
 
-#想法是输入hifini的通用格式，下载到特定文件夹
+#想法是输入hifini/lanzou的通用格式，下载到特定文件夹
 #比如：链接: https://www.lanzoui.com/i9zgwhe 提取码: i492
-#下载到 E:\Music_Temp
+#下载到download
 
 print("Started")
 print("please check if ChromeDriver version is correct")
 
-driver = webdriver.Chrome('D:/apps/Code_Plugins/chromedriver.exe') #ChromeDriver location
+driver = webdriver.Chrome('xxxxxxxxxxxxxxx') #ChromeDriver location
 driver.get("https://www.lanzoui.com") 
 #check
 while 1:
