@@ -7,6 +7,8 @@ from selenium import webdriver
 
 print("Started")
 print("please check if ChromeDriver version is correct")
+print("please check if links.txt is correct")
+# use try catch to avoid error for error version next time
 
 driver = webdriver.Edge('D:/apps/Music/Script/edgedriver_win64/msedgedriver.exe') #Driver location 浏览器下载位置
 #driver.get("https://www.lanzoui.com") 
